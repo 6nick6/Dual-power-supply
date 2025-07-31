@@ -1,0 +1,18 @@
+# KiCad temporary files
+*.bak
+*.tmp
+*.bck
+*.kicad_prl
+*.dcm
+*.net
+*.cache
+*.log
+*.zip
+*.sch-bak
+*.pcb-bak
+
+# Folders to ignore
+__pycache__/
+backup/
+fp-info-cache/
+autosave-*
