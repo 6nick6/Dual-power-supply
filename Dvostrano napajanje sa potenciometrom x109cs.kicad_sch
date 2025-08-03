@@ -343,7 +343,7 @@
       (reference "C5") (unit 1) (value "100nF/16V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/30f454c5-a232-4663-8418-ccb25b3f2e78"
-      (reference "C6") (unit 1) (value "100nF/16V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C6") (unit 1) (value "100uF/25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/edb18720-1db6-4ebd-b674-3ca84bccda12"
       (reference "C7") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -500,6 +500,9 @@
     )
     (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/35618511-a6df-4cd0-84bd-bed802876425"
       (reference "R12") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/6d02d791-4b58-452d-93dc-41182325bff7"
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
     )
     (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/ef8ba109-b8e0-4d4b-84d4-fbfd8a312af6"
       (reference "T1") (unit 1) (value "VPP28–090") (footprint "VPP28_090:XFMR_VPP28-090")
