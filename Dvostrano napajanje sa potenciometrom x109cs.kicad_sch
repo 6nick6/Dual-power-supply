@@ -531,9 +531,6 @@
     (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/723b5bf2-3996-4440-b765-4b4b05f92115"
       (reference "U8") (unit 1) (value "LM3940") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/15aab7bd-1c89-4e7f-91a5-2c571eec9295"
-      (reference "U?") (unit 1) (value "AD8561") (footprint "")
-    )
     (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/39dd4610-3916-47f4-b9df-3ab3560b1175"
       (reference "Y1") (unit 1) (value "32.768K") (footprint "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Vertical")
     )
