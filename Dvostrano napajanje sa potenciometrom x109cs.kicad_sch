@@ -1,544 +1,547 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 21a8c203-92ab-43ed-8d81-7e719d6d5d22)
-
-  (paper "A4")
-
-  (title_block
-    (title "Dvostrano napajanje sa potenciometrom X9C103S")
-    (date "2025-06-25")
-    (rev "1.0")
-    (comment 1 "MAIN")
-    (comment 2 "Nikola Ilić i Mihajlo Ristić")
-  )
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 123.19 124.46) (xy 136.525 124.46))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 10df19c7-fdf7-4ec3-8516-9fe2a14df601)
-  )
-  (wire (pts (xy 167.005 107.95) (xy 178.435 107.95))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 24070a58-72c1-4984-8712-952a8533a032)
-  )
-  (wire (pts (xy 123.19 93.98) (xy 136.525 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2b52e8a4-f1fa-483a-9c13-df3b3a8836c6)
-  )
-  (wire (pts (xy 123.19 113.03) (xy 136.525 113.03))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8d654e25-5f65-485a-8aa2-867631b6c035)
-  )
-  (wire (pts (xy 123.19 116.84) (xy 136.525 116.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9a0ded5d-b707-4724-bf15-8ab60e5ec837)
-  )
-  (wire (pts (xy 123.19 100.33) (xy 136.525 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9e3b080f-e1a2-4fd2-a605-be70fbf57d8c)
-  )
-  (wire (pts (xy 167.005 104.775) (xy 178.435 104.775))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid be485d2b-430e-4e39-afd6-56b8b1c65e00)
-  )
-  (wire (pts (xy 123.19 106.68) (xy 136.525 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ca8bdf81-1bef-47ea-854b-bc0e6d52a60a)
-  )
-  (wire (pts (xy 123.19 103.505) (xy 136.525 103.505))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d052bbaf-0155-4c67-a204-f5f3e6151f78)
-  )
-  (wire (pts (xy 123.19 109.855) (xy 136.525 109.855))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e505e9b3-7a4f-4c66-a39a-84b89bc443ec)
-  )
-
-  (label "CS+" (at 132.08 113.03 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0a300fdf-2550-46aa-b36a-f46d6539c89a)
-  )
-  (label "INC+" (at 132.08 116.84 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 2705998a-8f6b-4f9d-8ee0-d80978531aae)
-  )
-  (label "V+" (at 174.625 104.775 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 425c6e9e-0a2a-4fbb-bc62-2f581b31279d)
-  )
-  (label "INC-" (at 132.08 106.68 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5c60a046-41fd-4a6c-be12-f30f9f63a657)
-  )
-  (label "U{slash}D+" (at 132.08 109.855 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 65d08581-9d29-4cee-ad99-cc8d4422c517)
-  )
-  (label "CS-" (at 132.08 103.505 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 97302ae7-d05c-4fb3-8f9a-27a142e4b7f7)
-  )
-  (label "U{slash}D-" (at 132.08 100.33 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid db95873f-e8e6-4353-9659-82b0df37ea83)
-  )
-  (label "V-" (at 174.625 107.95 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ddece790-2973-4d1e-bccc-334accba939d)
-  )
-  (label "+5V" (at 132.08 93.98 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e5bfdefb-3cf8-4ece-8959-b927e035da68)
-  )
-  (label "+3V3" (at 131.445 124.46 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f12a1f8e-d195-4f71-88b2-441e86aa5568)
-  )
-
-  (sheet (at 136.525 91.44) (size 30.48 34.925) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2a86e306-70fd-4870-8a5a-80fdd5659a5c)
-    (property "Sheet name" "Dual supply" (id 0) (at 136.525 90.7284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "dual supply.kicad_sch" (id 1) (at 136.525 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V+" output (at 167.005 104.775 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 6970bc7a-3e32-4727-b007-5b0438819d22)
-    )
-    (pin "V-" output (at 167.005 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 161c11d6-307b-4295-9d6f-18895a3f752d)
-    )
-    (pin "INC+" input (at 136.525 116.84 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 48ec943a-89de-485e-a88a-ced4cf1b6662)
-    )
-    (pin "U{slash}D+" input (at 136.525 109.855 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid c7541055-4404-43e7-919c-95cce4f4a9f0)
-    )
-    (pin "CS+" input (at 136.525 113.03 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e8dc60b2-e13f-414e-bd1e-3545069db100)
-    )
-    (pin "CS-" input (at 136.525 103.505 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ebd27389-318e-45b8-9f55-c02927a42a22)
-    )
-    (pin "U{slash}D-" input (at 136.525 100.33 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6f217cdf-03f1-4cb4-a8ac-88283ab22e77)
-    )
-    (pin "INC-" input (at 136.525 106.68 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 507b4a5e-36b5-4b69-a213-7a38d89c69c3)
-    )
-    (pin "+5V" output (at 136.525 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid da7b6ada-cdd8-4eea-b16f-b00740f8d9b1)
-    )
-    (pin "+3V3" output (at 136.525 124.46 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 234b5644-e9ea-433e-9f92-ad6ed740723d)
-    )
-  )
-
-  (sheet (at 178.435 91.44) (size 30.48 34.925) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 870ce11d-76a6-4ac7-937a-b1b14d69e405)
-    (property "Sheet name" "Current amplifier" (id 0) (at 178.435 90.7284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Current amplifier.kicad_sch" (id 1) (at 178.435 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V-" input (at 178.435 107.95 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0346fd5b-24d8-4db2-ad56-63d585895d3a)
-    )
-    (pin "V+" input (at 178.435 104.775 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4b5b99d0-e7b4-4fac-8ea9-9c87cfcb9d1f)
-    )
-  )
-
-  (sheet (at 92.71 91.44) (size 30.48 34.925) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid ad7172a4-9f51-4ce8-a228-bbb05f7468fc)
-    (property "Sheet name" "MCU" (id 0) (at 92.71 90.7284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 92.71 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "U{slash}D-" input (at 123.19 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 30c5b5ad-10be-4717-947e-06877b5dbb41)
-    )
-    (pin "CS+" input (at 123.19 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ee79410e-f5c3-467f-bb08-f96858a44bce)
-    )
-    (pin "INC+" input (at 123.19 116.84 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 798ab660-c68d-4155-9bd5-d4c01fba17b9)
-    )
-    (pin "CS-" input (at 123.19 103.505 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fee3deaf-7b1b-4907-9564-1dbf4fc2f0cd)
-    )
-    (pin "INC-" input (at 123.19 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a753eecc-79cc-4ba6-8d7d-a1d88b3adc08)
-    )
-    (pin "U{slash}D+" input (at 123.19 109.855 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f0096879-4e2a-4987-a59e-54bae496fab0)
-    )
-    (pin "+5V" input (at 123.19 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 0a200b47-507f-40c0-b717-5147182bdff1)
-    )
-    (pin "+3V3" input (at 123.19 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 656b9a67-7eb6-46ae-9298-72edaabce6f8)
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c" (page "2"))
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405" (page "3"))
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc" (page "4"))
-  )
-
-  (symbol_instances
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/aee6d9bc-30bb-4643-a9d6-cd7082966994"
-      (reference "#PWR01") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/74232de0-a18a-4a5d-aca4-3e9982258f41"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/d7456a16-3cef-4658-879a-dfda46d64e5b"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/779ff2bc-47ec-4f18-8729-1b39a410f3ec"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/68d334e4-54c0-4982-aed0-b433e618fddf"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/8b23fb57-12f0-4a23-aa6f-ef4da8c88f90"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/141a28c8-a378-4ab5-bc36-f59974307687"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/feaa893a-decb-4962-ac93-07a78c076cc5"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/90fe848f-5141-4e9e-972f-6fdceee11e36"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/b4d7c306-946f-4ef2-b5ad-c7bdd7f4cdb9"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/15a86837-6a0c-4b4c-9a25-e867e924416b"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/4ed9f1b4-e3d6-418b-bca1-2cfc25a8ae37"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/bdd66c6f-03eb-484b-b071-d9ca1811f22a"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/6a86dcb2-9b0b-4643-ac5d-407f379dface"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/1b6c8188-0882-4b73-bd0a-a236027cfa2c"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/334f070b-f7c3-4a98-a26e-066ba681dc2a"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/ebcd45f2-4df2-449e-af94-d1a6de659c23"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/2b7f04ed-7436-4c6d-841d-a4fc3cedc4d2"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/6d9fa9bc-a4d6-43ac-9d59-584a6f9d0572"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/b1b581e3-23ca-48a5-8601-3d453028c4d7"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/3af2d4fe-9bdd-4fe5-9d95-12516fff0e7b"
-      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/6688eae9-b67c-411b-acea-9d92778055f3"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/a67e54fe-ae8a-4ecb-9443-bb13a4ee48c2"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/ee8e42ca-c42e-4838-aae6-dec7141a1558"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/6dbf47a5-1f5f-48f5-99eb-6fe74da619ab"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/a05ea11d-0af9-46bb-8e12-774cced4b271"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/107ea6b3-b37a-48d3-8189-dc51b74b36f1"
-      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/7aabebb9-c2e3-4169-8a0a-7bd49bd88558"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/d9e03dab-d631-4db0-9041-db8056320106"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/241706f0-b5df-489d-9393-f06951ca2028"
-      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/b6e4c9e6-9045-4b6e-8448-b5857513ea06"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/c0391ad4-cb48-4eab-bed9-9bcd1dc33789"
-      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/2aa56967-ca68-40e3-8f99-de4fa88c025a"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/e25919ca-aa09-4edc-a8f6-cb022db93dbc"
-      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/195b5784-aa0d-4473-a0fc-e07934c5ae7f"
-      (reference "BT1") (unit 1) (value "1062TR") (footprint "battery holder:BAT_1062TR")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/66935f01-d806-4bb5-9cad-e073f6fc3279"
-      (reference "C1") (unit 1) (value "4700uF/35V") (footprint "rect_cap:CAPPRD750W80D1800H4200")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/b02dc40f-0931-4548-99b2-84b8ee2a8a95"
-      (reference "C2") (unit 1) (value "100nF/16V") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/ae30fc26-d31d-4481-a913-e34b54667496"
-      (reference "C3") (unit 1) (value "100uF/25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/5301ccf4-3b76-433d-bc92-9f7bd65ec2ea"
-      (reference "C4") (unit 1) (value "4700uF/35V") (footprint "rect_cap:CAPPRD750W80D1800H4200")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/91749a2f-e883-418a-ab51-9b121d8743e4"
-      (reference "C5") (unit 1) (value "100nF/16V") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/30f454c5-a232-4663-8418-ccb25b3f2e78"
-      (reference "C6") (unit 1) (value "100uF/25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/edb18720-1db6-4ebd-b674-3ca84bccda12"
-      (reference "C7") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/3602ded9-0e10-4f1b-b6a1-c90a7769c254"
-      (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/5600de61-bcfe-4896-a77a-ca803a18a1bf"
-      (reference "C9") (unit 1) (value "100nF") (footprint "opamp cap:CAPC2012X70")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/3888dc5a-185d-42f1-87a7-2f45526c417a"
-      (reference "C10") (unit 1) (value "100nF") (footprint "opamp cap:CAPC2012X70")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/76d4530f-5a8d-4054-8a45-ef96aac608c1"
-      (reference "C11") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/5b88a293-4556-4cd9-8573-7ce8991f0d22"
-      (reference "C12") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/caa2c995-5709-411a-8476-a04e9a3aade4"
-      (reference "C13") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/a1ee2356-2310-48d9-92dc-88813c14d3bd"
-      (reference "C14") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/c192a1c5-250e-4a8f-a8d3-b4974a1706ec"
-      (reference "C15") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/50ed8a1f-83c8-49cf-99cd-84221d95973c"
-      (reference "C16") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/f82f61f8-13d5-40f6-90c1-6003defae6fd"
-      (reference "C17") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/4483e036-6c8f-4ee0-bc54-79240ceb44fb"
-      (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/ba5e6d61-fa92-440c-9b9c-71bf7499e12b"
-      (reference "C19") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/7078e5d0-4057-452a-8cd3-067751b193c6"
-      (reference "C20") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/5a290ef8-d0e0-4a7c-9e99-ff92718646a7"
-      (reference "C21") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/fa7bd7aa-5b61-4dbb-9ccd-a4ea3f0001da"
-      (reference "C22") (unit 1) (value "0.47uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/ca5c1ccd-c20e-484c-a5be-547b4efb29fc"
-      (reference "C23") (unit 1) (value "33uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/218f1462-2bd1-4c32-b34f-90df9a04a7eb"
-      (reference "D1") (unit 1) (value "VS-KBPC101") (footprint "Diode_THT:Diode_Bridge_Vishay_KBPC1")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/e1c8a13c-290a-4462-a0f6-ffb2e6e77017"
-      (reference "D2") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/f2424dc5-84f8-4c55-b4cf-68ab1dde2edc"
-      (reference "D3") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/f3d36f63-09c7-4a69-9f63-c77bda0d673c"
-      (reference "D4") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/fe7767ce-e19b-4053-be09-0dd9db72fe59"
-      (reference "D5") (unit 1) (value "1N4002") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/737a9c44-d8cd-43fd-9b82-6f118fd1bca2"
-      (reference "D6") (unit 1) (value "1N5402/3A/200V") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/75cddc40-bd80-4cc4-963f-a2b364ff653f"
-      (reference "D7") (unit 1) (value "QBLP631-IW") (footprint "LED_SMD:LED_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/55708bbd-7c86-4c28-a4ad-7337a8524a71"
-      (reference "F1") (unit 1) (value "0034.3105") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/c7c58b39-7005-49e5-a6b1-6223d94c9af0"
-      (reference "F2") (unit 1) (value "0034.3119") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/9c972eb7-f517-4c4e-b401-bb5eb7ec1131"
-      (reference "F3") (unit 1) (value "0034.3119") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/781e9694-2d8b-4f47-af68-3322af5bf99d"
-      (reference "HS1") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/cae3360a-a58e-4c0f-ad6a-92bd9b902b18"
-      (reference "HS2") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/53e1023c-b4d0-422f-9b33-0a43c97f88df"
-      (reference "HS3") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/90f5dbef-e5a3-4348-a8b3-9e8adf3aafb2"
-      (reference "HS4") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/25bfbf27-5f59-43cf-8a23-335409012f57"
-      (reference "HS5") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/8a3168d5-1c30-4e57-a189-ba2b5c9d41d1"
-      (reference "HS6") (unit 1) (value "529702B02500G") (footprint "529702B02500G:HSINK_529702B02500G")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/72471505-0759-4062-854a-c0c44bc6b6e1"
-      (reference "J2") (unit 1) (value "1") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/c6545581-604a-46d0-8874-e4220eaebfd5"
-      (reference "J3") (unit 1) (value "1") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/9825b8bc-265d-4b64-9164-8e3c29c58bbd"
-      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/b398e59a-6415-42fa-8258-c2d7d21917b7"
-      (reference "J5") (unit 1) (value "FLAT za displej") (footprint "footprints:CONN_XG4A-1631_OMR")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/aaf79e7b-10d6-4d06-a31f-078380a65828"
-      (reference "J6") (unit 1) (value "703W-00/08") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/c8ce6e26-09b6-4594-b8b1-677d511d63d2"
-      (reference "Q1") (unit 1) (value "2SA1837") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/beec5b3e-21a4-4e9c-96be-59e864e3f2d8"
-      (reference "Q2") (unit 1) (value "2SA4793") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/9ee38ba2-2974-4f63-9ba9-bb6f9e86ecb8"
-      (reference "R1") (unit 1) (value "120R") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/38bd9a64-dafd-48ac-89eb-cb0caf83a2f4"
-      (reference "R2") (unit 1) (value "240R") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/5821ca29-e59a-4a49-abe6-3a69cd3c509e"
-      (reference "R3") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/aa53b10b-2368-4e34-a67b-f246f3e4c270"
-      (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/c5aeea4d-8377-446d-a495-3031f0f9bd30"
-      (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/99bd35d5-0856-4f83-9d20-5880b07be054"
-      (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/050b8bfa-b903-4ef5-94c2-e868aa4d3330"
-      (reference "R7") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/93f9335f-d4b1-417a-8eaf-f5b452bd7fee"
-      (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/0fe197a2-72a6-4a8d-8949-4dd69a533397"
-      (reference "R9") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/c273ef57-97fb-4b96-984f-f42528eebf8d"
-      (reference "R10") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/4b698683-7c59-4bcd-b8d3-751b487821b5"
-      (reference "R11") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/35618511-a6df-4cd0-84bd-bed802876425"
-      (reference "R12") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/6d02d791-4b58-452d-93dc-41182325bff7"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/ef8ba109-b8e0-4d4b-84d4-fbfd8a312af6"
-      (reference "T1") (unit 1) (value "VPP28–090") (footprint "VPP28_090:XFMR_VPP28-090")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/f1e210d2-34e8-4681-b191-51f04a88af6c"
-      (reference "U1") (unit 1) (value "X9C103S") (footprint "DIGITAL POT:SOIC127P600X175-8N")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/71a9d80d-caca-44e4-b796-ff6606473bf1"
-      (reference "U2") (unit 1) (value "LM337_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/49eb173e-3f5b-4284-b8a5-1d4194b4914b"
-      (reference "U3") (unit 1) (value "X9C103S") (footprint "DIGITAL POT:SOIC127P600X175-8N")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/d2ce9339-e2b0-4863-8105-05c2ea70275f"
-      (reference "U4") (unit 1) (value "LM317T") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/393b46cb-0fbc-4215-af1d-6727a7a5ce16"
-      (reference "U5") (unit 1) (value "LM7805_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/870ce11d-76a6-4ac7-937a-b1b14d69e405/5ea81d92-78c9-4b7c-955b-135daabdc387"
-      (reference "U6") (unit 1) (value "LM741") (footprint "Package_DIP:DIP-8_W7.62mm")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/a5b1cb30-4345-43ba-be6f-63fca7538cc4"
-      (reference "U7") (unit 1) (value "STM32F103C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/723b5bf2-3996-4440-b765-4b4b05f92115"
-      (reference "U8") (unit 1) (value "LM3940") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
-    )
-    (path "/2a86e306-70fd-4870-8a5a-80fdd5659a5c/15aab7bd-1c89-4e7f-91a5-2c571eec9295"
-      (reference "U?") (unit 1) (value "AD8561") (footprint "")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/39dd4610-3916-47f4-b9df-3ab3560b1175"
-      (reference "Y1") (unit 1) (value "32.768K") (footprint "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Vertical")
-    )
-    (path "/ad7172a4-9f51-4ce8-a228-bbb05f7468fc/76a2591d-e0c3-47aa-b498-8aef25f27c5a"
-      (reference "Y2") (unit 1) (value "8MHz") (footprint "Crystal:Resonator-2Pin_W10.0mm_H5.0mm")
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "21a8c203-92ab-43ed-8d81-7e719d6d5d22")
+	(paper "A4")
+	(title_block
+		(title "Dvostrano napajanje sa potenciometrom X9C103S")
+		(date "2025-06-25")
+		(rev "1.0")
+		(comment 1 "MAIN")
+		(comment 2 "Nikola Ilić i Mihajlo Ristić")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 123.19 124.46) (xy 136.525 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10df19c7-fdf7-4ec3-8516-9fe2a14df601")
+	)
+	(wire
+		(pts
+			(xy 167.005 107.95) (xy 178.435 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24070a58-72c1-4984-8712-952a8533a032")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 136.525 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b52e8a4-f1fa-483a-9c13-df3b3a8836c6")
+	)
+	(wire
+		(pts
+			(xy 123.19 113.03) (xy 136.525 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d654e25-5f65-485a-8aa2-867631b6c035")
+	)
+	(wire
+		(pts
+			(xy 123.19 116.84) (xy 136.525 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0ded5d-b707-4724-bf15-8ab60e5ec837")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 136.525 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3b080f-e1a2-4fd2-a605-be70fbf57d8c")
+	)
+	(wire
+		(pts
+			(xy 167.005 104.775) (xy 178.435 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be485d2b-430e-4e39-afd6-56b8b1c65e00")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 136.525 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8bdf81-1bef-47ea-854b-bc0e6d52a60a")
+	)
+	(wire
+		(pts
+			(xy 123.19 103.505) (xy 136.525 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d052bbaf-0155-4c67-a204-f5f3e6151f78")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.855) (xy 136.525 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e505e9b3-7a4f-4c66-a39a-84b89bc443ec")
+	)
+	(label "CS+"
+		(at 132.08 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a300fdf-2550-46aa-b36a-f46d6539c89a")
+	)
+	(label "INC+"
+		(at 132.08 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2705998a-8f6b-4f9d-8ee0-d80978531aae")
+	)
+	(label "V+"
+		(at 174.625 104.775 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "425c6e9e-0a2a-4fbb-bc62-2f581b31279d")
+	)
+	(label "INC-"
+		(at 132.08 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c60a046-41fd-4a6c-be12-f30f9f63a657")
+	)
+	(label "U{slash}D+"
+		(at 132.08 109.855 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65d08581-9d29-4cee-ad99-cc8d4422c517")
+	)
+	(label "CS-"
+		(at 132.08 103.505 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97302ae7-d05c-4fb3-8f9a-27a142e4b7f7")
+	)
+	(label "U{slash}D-"
+		(at 132.08 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db95873f-e8e6-4353-9659-82b0df37ea83")
+	)
+	(label "V-"
+		(at 174.625 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddece790-2973-4d1e-bccc-334accba939d")
+	)
+	(label "+5V"
+		(at 132.08 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5bfdefb-3cf8-4ece-8959-b927e035da68")
+	)
+	(label "+3V3"
+		(at 131.445 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f12a1f8e-d195-4f71-88b2-441e86aa5568")
+	)
+	(sheet
+		(at 136.525 91.44)
+		(size 30.48 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a86e306-70fd-4870-8a5a-80fdd5659a5c")
+		(property "Sheetname" "Dual supply"
+			(at 136.525 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dual supply.kicad_sch"
+			(at 136.525 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V+" output
+			(at 167.005 104.775 0)
+			(uuid "6970bc7a-3e32-4727-b007-5b0438819d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V-" output
+			(at 167.005 107.95 0)
+			(uuid "161c11d6-307b-4295-9d6f-18895a3f752d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INC+" input
+			(at 136.525 116.84 180)
+			(uuid "48ec943a-89de-485e-a88a-ced4cf1b6662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U{slash}D+" input
+			(at 136.525 109.855 180)
+			(uuid "c7541055-4404-43e7-919c-95cce4f4a9f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS+" input
+			(at 136.525 113.03 180)
+			(uuid "e8dc60b2-e13f-414e-bd1e-3545069db100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS-" input
+			(at 136.525 103.505 180)
+			(uuid "ebd27389-318e-45b8-9f55-c02927a42a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U{slash}D-" input
+			(at 136.525 100.33 180)
+			(uuid "6f217cdf-03f1-4cb4-a8ac-88283ab22e77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INC-" input
+			(at 136.525 106.68 180)
+			(uuid "507b4a5e-36b5-4b69-a213-7a38d89c69c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 136.525 93.98 180)
+			(uuid "da7b6ada-cdd8-4eea-b16f-b00740f8d9b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" output
+			(at 136.525 124.46 180)
+			(uuid "234b5644-e9ea-433e-9f92-ad6ed740723d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Dvostrano napajanje sa potenciometrom x109cs"
+				(path "/21a8c203-92ab-43ed-8d81-7e719d6d5d22"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 178.435 91.44)
+		(size 30.48 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "870ce11d-76a6-4ac7-937a-b1b14d69e405")
+		(property "Sheetname" "Current amplifier"
+			(at 178.435 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current amplifier.kicad_sch"
+			(at 178.435 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V-" input
+			(at 178.435 107.95 180)
+			(uuid "0346fd5b-24d8-4db2-ad56-63d585895d3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V+" input
+			(at 178.435 104.775 180)
+			(uuid "4b5b99d0-e7b4-4fac-8ea9-9c87cfcb9d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Dvostrano napajanje sa potenciometrom x109cs"
+				(path "/21a8c203-92ab-43ed-8d81-7e719d6d5d22"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 91.44)
+		(size 30.48 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad7172a4-9f51-4ce8-a228-bbb05f7468fc")
+		(property "Sheetname" "MCU"
+			(at 92.71 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 92.71 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "U{slash}D-" input
+			(at 123.19 100.33 0)
+			(uuid "30c5b5ad-10be-4717-947e-06877b5dbb41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS+" input
+			(at 123.19 113.03 0)
+			(uuid "ee79410e-f5c3-467f-bb08-f96858a44bce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INC+" input
+			(at 123.19 116.84 0)
+			(uuid "798ab660-c68d-4155-9bd5-d4c01fba17b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS-" input
+			(at 123.19 103.505 0)
+			(uuid "fee3deaf-7b1b-4907-9564-1dbf4fc2f0cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INC-" input
+			(at 123.19 106.68 0)
+			(uuid "a753eecc-79cc-4ba6-8d7d-a1d88b3adc08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U{slash}D+" input
+			(at 123.19 109.855 0)
+			(uuid "f0096879-4e2a-4987-a59e-54bae496fab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 123.19 93.98 0)
+			(uuid "0a200b47-507f-40c0-b717-5147182bdff1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 123.19 124.46 0)
+			(uuid "656b9a67-7eb6-46ae-9298-72edaabce6f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Dvostrano napajanje sa potenciometrom x109cs"
+				(path "/21a8c203-92ab-43ed-8d81-7e719d6d5d22"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
